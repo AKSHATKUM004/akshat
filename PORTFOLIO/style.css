@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAV BAR  */
+
+nav{
+    background-color: rgb(2, 2, 46);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease;
+}
+nav ul a:hover{
+    transform: scale(1.1);
+    color: rgb(243, 80, 16);
+}
+
+/* LOGO ANIMATION */
+
+.right a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.right{
+    transition: 1s ease;
+}
+.right:hover{
+    transform: scale(1.1);
+    
+}
+.right a:hover{
+    color: rgb(245, 85, 10);
+}
+
+
+/* FIRST PHASE */
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+
+.first> div{
+    width: 40%;
+}
+.first .left{
+    /* background-color: red; */
+    font-size: 2.5rem;
+    margin: 100px 100px;
+    padding-left: 50px;
+    width: 30%;
+}
+.first .right1{
+    /* background-color: red; */
+    width: 40%;
+}
+.purple a{
+    text-decoration: none;
+    color: purple;
+}
+
+
+/* SECOND PHASE */
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+
+.second> div{
+    width: 30%;
+} 
+
+.left2{
+  margin: 40px;
+  transition: 1s ease;
+  color: blue;
+   
+}
+.left2:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 25px red);
+}
+.right2 h1{
+    margin-bottom: 10px;
+    transition: 1s ease-in-out;
+    font-size: 25px;
+ }
+
+
+ .right2 h1:hover{
+    transform: scale(1.1);
+ }
+ .right2 h1:hover{
+    color: red;
+ }
+ .right2 div{
+    text-align: center;
+ }
+
+ /* THIRD PHASE */
+
+ .third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+ }
+
+ .third> div {
+    width: 30%;
+   
+ }
+ .third .left3{
+    text-align: center;
+
+ }
+ .third .right3{
+    margin: 41px;
+    transition: 0.8s ease;
+  
+ }
+ .right3:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 25px blue);
+ }
+
+ /* FOURTH PHASE */
+ 
+ .fourth{
+     display: flex;
+     text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+}
+.fourth .avanger{
+   transition: 1s ease;
+}
+.avanger:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 40px rgb(82, 241, 19));
+}
+
+.avn{
+   width: 50%;
+   margin: auto;
+   padding-bottom: 89px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 20px;
+}
+
+
+/* FIVE PHASE */
+
+.five> div{
+    width: 45%;
+
+}
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+
+}
+.five  video{
+    border-radius: 30px;
+}
+.five .video{
+    filter: drop-shadow(0 0 30px yellow);
+   transition: 1s ease;
+}
+.video:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 50px blue);
+}
+
+
+
+ /* ID CLASS */
+
+#element{
+   color: rgb(35, 39, 97);
+}
